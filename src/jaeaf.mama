@@ -1,0 +1,21 @@
+
+let mistakes = 0;
+
+
+let res = while true {
+    let gotten_input = input("wie heisst der pruple fuchs: ");
+    if gotten_input == "FuFu" {
+        print("richtig");
+        break "richtig gemacht";
+    }
+    if gotten_input != "FuFu" {
+        print("falsch");
+        let mistakes = mistakes + 1;
+    }
+    if mistakes > 3 {
+        break "zu oft falsch";
+    }
+}
+
+
+print(res);

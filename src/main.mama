@@ -1,0 +1,9 @@
+let inp = input("was ist 1 + 1: ");
+
+
+let res = if inp == "2" {
+    "richtig";
+}
+
+
+print(res);
